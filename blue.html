@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html  >
+<head>
+  <meta charset="UTF-8">
+  <title>生日</title>
+  <link rel='stylesheet' href='css\splitting.css'>
+<link rel='stylesheet' href='css\splitting-cells.css'>
+    <link rel="stylesheet" href="css\style_blue.css">
+    <link rel="stylesheet" href="css\style_lean.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="text" data-splitting="">Happy Birthday,Li Ying</div>
+  <div class="presents">
+    <div class="present orange">
+      <div class="lid"></div>
+      <div class="box"></div>
+      <div class="bow"></div>
+      <div class="ribbon"></div>
+    </div>
+    <div class="present blue">
+      <div class="lid"></div>
+      <div class="box"></div>
+      <div class="bow"></div>
+      <div class="ribbon"></div>
+    </div>
+    <div class="present green">
+      <div class="lid"></div>
+      <div class="box"></div>
+      <div class="bow"></div>
+      <div class="ribbon"></div>
+    </div>
+  </div>
+</div>
+<!-- <div class="container">
+  <a href="blessing.html" class="lk1">
+  <button class="button">点击按钮</button> -->
+<div class="button_1">
+  <a href="blessing.html" class="lk1">
+  <button class="learn-more" id="learn-more">李英快试试</button>
+  </a>
+</div>
+
+<!-- <audio preload autoplay loop id="music">
+  <source src="music\music.mp3" type="audio/mpeg">
+</audio> -->
+
+
+<!-- partial -->
+<script type="text/javascript">
+  window.onload = function(){
+           setInterval("toggleSound()",1);
+      }
+
+  function toggleSound() {
+              var music = document.getElementById("music");//获取ID  
+              if (music.paused) { //判读是否播放  
+                  music.paused=false;
+                  music.play(); //没有就播放 
+              }    
+      }
+</script>
+
+
+  <script src='js\mo.min.js'></script>
+ 
+<script src='js\splitting.min.js'></script>
+    <script  src="js\script_blue.js"></script>
+<script>
+   window.onload=function(){
+    var button1 = document.getElementById('learn-more');
+
+    setTimeout(function(){
+      button1.style.display='inline-block';
+    },6000)
+  }
+</script>
+
+
+</body>
+</html>
+
+
+

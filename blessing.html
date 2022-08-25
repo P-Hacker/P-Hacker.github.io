@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>祝福</title>
+
+    <link rel="stylesheet" href="css\style_card.css">
+
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+    <ul class="cards">
+
+        <li class="card">
+            <h1>card1 TO Li Ying</h1>
+
+            <p>曙光初现，幸福在你身边;日落西山，欢乐随你一天。前面的远途因你的陪伴而精彩四溢，在我失意时正是你的出现给了我极大的动力，今天是你的生辰，在此我想对你说：李英生日快乐。愿你的未来繁花似锦，愿你可以和所有的烦恼说“拜拜”，愿你一直可以称心如意！这里不仅有你喜欢的绿色，还有我喜欢的元素‘蓝色’，嘿嘿这份特别的礼物希望你可以喜欢。</p>
+        </li>
+        <li class="card">
+            <h1>card2 李英生日快乐哈 </h1>
+            <p>这是我陪你过的第一个生日，同时也是你的18岁生日，愿我们的友谊在不同的班级里熠熠生辉！！在这个车遥马急的时代，很高兴能够遇到到你，我们能在千万的人海里相遇很不容易，我也很珍惜。李英我们相识于2022的8月5日，虽然啊我们相识的时间不是特别特别长，但路漫漫其修远兮嘛，我们的未来可期嘿嘿，希望未来都有我们。时间驶过，万物变化，唯你我友谊不变，我会一直在。</p>
+        </li>
+        <li class="card">
+            <h1>Card3 friend</h1>
+            <p>我们之间从一开始的熟悉，到现在这么亲近的朋友。不管我们有没有见面，希望我们都还是想老样子，无话不说，一直可以笑得那样的开心。虽然我不能为你做决定，但要是你有委屈，不开心了就跟我说说，朋友嘛就是排忧解难的。我觉得身边有你这样温柔的朋友，我真的好幸福，我从来没有感觉到朋友可以给我带来我曾想不到的，在我的认识里，朋友就是借钱，遇到危险找朋友的（哭笑）。李英记得：无论开心或者苦闷，我都愿意听你倾诉，我们不需要小心翼翼，想喝酒时我永远愿意与你碰杯！</p>
+        </li>
+        <li class="card">
+            <h1>Card4 life</h1>
+            <p>现在跟你说说哈：我代号博士的由来，就是一次英语课，那个英语老师不是我们班的，然后有个问题就我回答了上了，那个英语老师就说我是‘博士’从此他们就叫我博士，哈哈哈，具体经过呢我在微信上给你说哈。还有哦：也许以后我们不会常常联系，但我不会忘记我的朋友的。‘你未必万丈光芒，但你温暖有光’，‘彼方尚有荣光在，少年不惧岁月长’，生日快乐李英，希望你的生日我都不会缺席。背景音乐应该听的清楚吧，是写给你偶像羽生结弦的，希望你能喜欢（开心）。希望你在大学里找个心仪的男孩子，然后让他一直保护你（憨笑）。Ending:Happy Birthday,Li ying!! Thanks.</p>
+        </li>
+    </ul>
+
+
+
+    
+
+
+    <!-- partial -->
+   <audio preload autoplay loop id="music">
+        <source src="music\music.mp3" type="audio/mpeg">
+   </audio>
+   
+
+
+    <script src='js\cash.min.js'></script>
+    <script src='js\epmrgO.js'></script>
+    <script src="js\blessingscript.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+    window.onload = function(){
+             setInterval("toggleSound()",1);
+        }
+
+    function toggleSound() {
+                var music = document.getElementById("music");//获取ID  
+                if (music.paused) { //判读是否播放  
+                    music.paused=false;
+                    music.play(); //没有就播放 
+                }    
+        }
+</script>
+
